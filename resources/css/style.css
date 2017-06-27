@@ -3,7 +3,7 @@ html{
   font-size:16px;
 }
 body{
-  font-family: sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color:#909090;
 }
 div{
@@ -381,14 +381,15 @@ video{
 .thesis .feature{
 
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
+
 }
 
 .thesis .single-offer{
   height:10.5rem;
-  padding-bottom: 4rem;
+  padding-left: 0;
 
 }
+
 
 .exhibits .single-offer{
   border:none;
@@ -400,9 +401,7 @@ video{
   background-color: white;
 }
 
-#single0ffer{
-  padding-top: 1rem;
-}
+
 
 .exhibits .single-offer .content h2{
   font-size: 1.5rem;
@@ -417,14 +416,30 @@ video{
   justify-content: center;
   flex-direction: column;
   display:flex;
+  padding-left: 1rem;
 }
 
 
-.single-offer img{
-  display:block;
+.image-offer{
   width:35%;
-  margin: 0 1rem;
+  display:block;
+
+  max-height: 136px;
+  min-width: 35%;
+
+
 }
+
+
+.image-offer img{
+  display:flex;
+  width:75%;
+
+
+
+}
+
+
 
 /*Footer*/
 
