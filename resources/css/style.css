@@ -431,6 +431,9 @@ video{
 
 .exhibits .single-offer{
   border:none;
+  display:inline-flex;
+  align-items: center;
+
 }
 
 
