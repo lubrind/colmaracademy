@@ -745,6 +745,9 @@ footer .copy{
   .right-side .single-offer:nth-child(1n+0){
     background-color: white;
   }
+  .offers .single-offer img.mobile {
+    display: none;
+  }
 }
 
 /*Learning settings*/
