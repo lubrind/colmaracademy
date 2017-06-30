@@ -713,6 +713,11 @@ footer .copy{
   .offers .content {
     padding-top: 1rem;
   }
+
+  .offers .mobile{
+    position:relative;
+    z-index: 1;
+  }
 }
 
 @media only screen and (max-width:580px) {
@@ -745,9 +750,7 @@ footer .copy{
   .right-side .single-offer:nth-child(1n+0){
     background-color: white;
   }
-  .offers .single-offer img.mobile {
-    display: none;
-  }
+
 }
 
 /*Learning settings*/
